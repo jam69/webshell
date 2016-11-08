@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Prueba</title>
+</head>
+<body>
+<form action="Main" >
+<label> Fichero:</label>
+<input type="text" name="file"></input>
+
+<label> comando:</label>
+<input type="text" name="cmd"></input>
+</form>
+
+<form method="POST" action="Main" enctype="multipart/form-data" >
+	  <input id = "file" name="file" type="file" />
+	  <br/>
+      <input name="destination" value = "/tmp" type="text"/>
+      <br/>
+      <input type = "submit" value = "upload" id = "upload" />
+</form>
+
+</body>
+</html>
